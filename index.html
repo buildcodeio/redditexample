@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title>API(s)</title>
+    <link rel='stylesheet' href='styles/semantic.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+
+</head>
+<body id="reddit">
+    <div class="ui fixed menu">
+        <div class="ui container">
+            <a href="#" class="header item">
+                Reddit API Search
+            </a>
+            <a href="#" class="item">Home</a>
+        </div>
+    </div>
+    <div class="ui grid stackable r-container">
+        <div class="ui ten column centered grid">
+            <div class="ui massive icon input r-container__inp">
+              <input type="text" placeholder="Search massive..." class="js-search">
+              <i class="search icon"></i>
+            </div>
+            <div class="r-container__holder js-results ui cards"></div>
+        </div>
+    </div>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='javascript/main.js'></script>
+</body>
+</html>
