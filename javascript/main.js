@@ -1,3 +1,4 @@
+
 var DOMHandler = (function() {
 
     var containerEl = document.querySelector('.js-results');
