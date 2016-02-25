@@ -1,0 +1,16 @@
+/* CURRENTLY IN: styles/main.css */
+#reddit .r-container {
+    padding-top: 80px;
+}
+
+#reddit .r-container__inp {
+    width: 80%;
+}
+
+#reddit .r-container__holder {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
